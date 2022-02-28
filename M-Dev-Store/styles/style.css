@@ -1,0 +1,281 @@
+/*
+templet name : M-Dev Store
+Author Name : khaled
+Author Email: khaled_mohamed9876@yahoo.com
+Theme Url : www.m-dev-store.com 
+Theme Ver :1.1
+*/
+
+/* General styles*/
+
+*body{
+    font-size: 14px;
+    line-height: 1.4285713;
+    color: #333333;
+    background: #f0f0f0;
+    overflow-x: hidden;
+}
+
+/* top menu style */
+#top{
+background: #555555;
+padding:10px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+#top .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#top ul.menu{
+  
+    margin: 0px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+ 
+}
+@media (max-width:991px) {
+    #top ul.menu{
+        text-align: center;
+    }
+    
+}
+#top ul.menu >li {
+    display: inline-block;
+}
+
+#top ul.menu >li a{
+
+color: #eeeeee;
+
+}
+#top ul.menu >li + li::before{
+
+    content: "|\00a0";
+    color: #f7f7f7;
+    padding: 0 5px;
+}
+
+
+#top .offer{
+    color: #ffffff;
+
+
+}
+
+
+
+#top .offer .btn{
+    text-transform: uppercase;
+
+
+
+}
+
+@media (max-width:991px) {
+    #top .offer{
+
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width:991px) {
+    #top .id{
+
+        margin-bottom: 12px;
+        text-align: center;
+
+    }
+}
+
+#top a {
+
+    color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.navbar .container1{
+    position: relative;
+
+    margin: auto;
+    background-color: #333333;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+ .Cartt{
+ position: absolute;
+ right: 50px;
+ top: 30px;
+    width: 20%;
+}
+.search1{
+    position: absolute;
+    
+    top: 50px;
+}
+.item-cart{
+    position: absolute;
+    top: 41.5px;
+    left: 30px;
+
+
+
+}
+
+.navbar1{
+    background:#ffffff ;
+ 
+    
+
+}
+
+
+.navbar1-brand{
+    
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 70px;
+}
+
+.navbar1-brand:hover,
+.navbar1-brand:focus{
+    text-decoration: none;
+}
+.navbar1 ul.nav > li >  a {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar1 ul.nav > li >  a:hover{
+    background: #e7e7e7;
+}
+.padding-nav{
+
+    padding-top: 10px;
+}
+.btn-primary{
+    color: rgb(255, 255, 255);
+    background: rgb(79, 191, 168);
+    border-color: rgb(65, 179, 156);
+}
+.hover-underline-animation { 
+    
+    display: inline-block;
+    position: relative;
+    color: #0087ca ;
+    
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+ /* advantages styles */
+
+.advantages{
+ 
+    text-align: center !important;
+  }
+
+.col-sm-4 .boxing{
+
+    background: #ffffff !important;
+     margin: 0 0 30px !important;
+     border: solid 1px #e6e6e6 !important;
+     box-sizing: border-box !important;
+     padding: 20px !important;
+     box-shadow: 0px 2px 5px rgba(0,0,0, .3) !important;
+  }
+  .advantages .boxing .icon {
+
+
+    position: absolute;
+    font-size: 120px;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    left: 0;
+    height: 100%;
+    float: left;
+    color: #dadada;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .advantages .boxing h3{
+      position: relative;
+
+      margin: 0 0 20px;
+      font-weight: 300;
+      text-transform: uppercase;
+      z-index: 2;
+
+
+
+
+  }
+
+  .advantages .boxing h3 a{
+
+    color: #4fbfa8;
+
+
+
+
+
+  }
+  .advantages .boxing h3 a:hover {
+      text-decoration: none;
+  }
+
+  .advantages .boxing p{
+      position: relative;
+      z-index: 2;
+      color: #555555;
+
+
+
+
+
+
+  }
+
+
+ 
+
+
